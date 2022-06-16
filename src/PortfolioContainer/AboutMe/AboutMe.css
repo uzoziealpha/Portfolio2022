@@ -1,0 +1,59 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7b8ab8;
+  }
+  .screen-heading {
+    font-size: 32px;
+    color: #7b8ab8;
+    font-family: "Poppins Bold";
+  }
+  .about-me-parent {
+    max-width: 1000px;
+    width: 70%;
+    color: #7b8ab8;
+  }
+  .about-me-card {
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0px 20px -2px purple;
+  }
+  .about-me-profile {
+    width: 50%;
+    background-image: url("../../assets/AboutMe/me.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .about-me-details {
+    width: 48%;
+    text-align: justify;
+    padding: 30px;
+  }
+  .about-me-description {
+    font-size: 12px;
+  }
+  .about-me-highlights {
+    margin: 80px 0;
+  }
+  .highlght-heading {
+    font-family: "Oxygen Bold";
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    color: #7b8ab8;
+  }
+  .highlight {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 12px;
+  }
+  .highlight-blob {
+    height: 12px;
+    width: 12px;
+    margin: 0 10px 0 0;
+    background-color: purple;
+    border-radius: 50%;
+  }
