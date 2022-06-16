@@ -25,13 +25,14 @@ export default function Projects(props) {
                       </p>
                 
                       <div className="d-flex flex-row justify-content-center">
-                   
+                      <div className='inner-button'>
                       <a href="https://housemarketapp-htyz3bss3-uzoziealpha.vercel.app/">
                       <button className="btn highlighted-btn">Go to Webpage  <i class="fa fa-globe"></i></button>
                       </a>
                       <a href="https://github.com/uzoziealpha/housemarketapp">
-                            <button className="btn highlighted-btn">Go to GitHub  <i class="fa fa-globe"></i></button>
+                            <button className="btn highlighted-btn">Go to GitHub  <i class="fa fa-github"></i></button>
                       </a>
+                      </div>
                      </div> 
                    </div>
                    </div>
@@ -47,14 +48,15 @@ export default function Projects(props) {
                           Frameworks: .NET, AZURE, RAZORPAGES, MSSQL
                         </p>
                   
-                        <div className="d-flex flex-row justify-content-center">
-                     
+                        <div className=" d-flex flex-row justify-content-center">
+                         <div className='inner-button'>
                         <a href="https://veeggan2022.azurewebsites.net/Customer/Home">
                         <button className="btn highlighted-btn">Go to Webpage  <i class="fa fa-globe"></i></button>
                         </a>
                         <a href="https://github.com/uzoziealpha/VeeganSnacks">
                             <button className="btn highlighted-btn">Go to GitHub  <i class="fa fa-github"></i></button>
                         </a>
+                        </div>
                        </div> 
                      </div>
                      </div>
@@ -70,11 +72,11 @@ export default function Projects(props) {
                           </p>
                     
                           <div className="d-flex flex-row justify-content-center">
-                       
+                          <div className='inner-button'>
                           <a href="https://calmcandlessentials.com/">
                           <button className="btn highlighted-btn">Go to Webpage  <i class="fa fa-globe"></i></button>
                           </a>
-
+                          </div>
             
                          </div> 
                        </div>
@@ -83,7 +85,7 @@ export default function Projects(props) {
            
          
 
-                      <div className='col-12 col-md-6 col-lg-4'>
+                      <div className='col-12 sm-6 col-md-6 col-lg-4'>
                       <div className='card'>
                          <img src='images/ecomm.png' alt="Project1" class="card-img-top"/>
                          <div className='card-body'>
@@ -94,53 +96,22 @@ export default function Projects(props) {
                       
                             <div className="d-flex flex-row justify-content-center">
                          
+                            <div className='inner-button'>
                             <a href="http://obiecommportfolio.herokuapp.com/">
                             <button className="btn highlighted-btn">Go to Webpage  <i class="fa fa-globe"></i></button>
                             </a>
+                         
+                          
                             <a href="https://github.com/uzoziealpha">
                             <button className="btn highlighted-btn">Go to GitHub  <i class="fa fa-github"></i></button>
                             </a>
+                            </div>
                            </div> 
                          </div>
                          </div>
                         </div>
 
-                        <div className='col-12 col-md-6 col-lg-4'>
-                        <div className='card'>
-                           <img src='images/ve.png' alt="Project1" class="card-img-top"/>
-                           <div className='card-body'>
-                              <h5 className='card-title'>Vegan Delievery App</h5>
-                              <p className='card-text'>
-                                Frameworks: .NET, AZURE, RAZORPAGES, MSSQL
-                              </p>
-                        
-                              <div className="d-flex flex-row justify-content-center">
-                           
-                         
-                             </div> 
-                           </div>
-                           </div>
-                          </div>
-  
-  
-                          <div className='col-12 col-md-6 col-lg-4'>
-                          <div className='card'>
-                             <img src='images/ve.png' alt="Project1" class="card-img-top"/>
-                             <div className='card-body'>
-                                <h5 className='card-title'>Vegan Delievery App</h5>
-                                <p className='card-text'>
-                                  Frameworks: .NET, AZURE, RAZORPAGES, MSSQL
-                                </p>
-                          
-                                <div className="d-flex flex-row justify-content-center">
-                             
-                             
-                               </div> 
-                             </div>
-                             </div>
-                            </div>
-    
-    
+        
       
 
 

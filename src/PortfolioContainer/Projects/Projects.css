@@ -51,3 +51,14 @@
     background-color: purple;
     border-radius: 50%;
   }
+
+ 
+/*IPAD PRO RESPONSIVENESS*/
+
+@media screen  and (max-width: 820px){
+  .inner-button {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
