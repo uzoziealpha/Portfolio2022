@@ -84,7 +84,7 @@ const Summary = (props) => {
       description:
         "An E-commerce App that allows users to login and logout as well as adding new categories and foodtypes. The Application allows the users to CRUD items using an API. The Application is deployed on Azure."
         ,
-      subHeading: "Technologies Used: Ruby, Bootstrap, Git, Heroku",
+      subHeading: "Technologies Used: .NET, RazorPages, GitHub & Azure",
     },
     {
       title: "Candle E-Commerce Store",
@@ -201,10 +201,13 @@ const Summary = (props) => {
 
     /* Interests */
     <div className="resume-screen-container" key="interests">
-      <ResumeHeading
-        heading="Web Development"
-        
-        description="I enjoy coding as a hobby and the fulfillment i get from creating software."
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <ResumeHeading
+        heading=" Web Development"
+         description="I enjoy coding as a hobby and the fulfillment i get from creating software."
       />
       <ResumeHeading
         heading="Competitive Gaming"
@@ -220,8 +223,7 @@ const Summary = (props) => {
         description="I enjoy listening to soothing music"
       />
       <ResumeHeading
-      heading="Art (Graphic or 3d)"
-      description="I have a knack for art. I love giving 2d objects i draw life by animating them on Blender or Maya. "
+      heading="Art (Graphic Designs or 3d Animation)"
     />
     </div>,
     
