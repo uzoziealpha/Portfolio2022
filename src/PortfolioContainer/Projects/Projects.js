@@ -64,7 +64,7 @@ export default function Projects(props) {
                      
                   <div className='col-12 col-md-6 col-lg-4'>
                   <div className='card'>
-                     <img src='images/ve.png' alt="Project2" class="card-img-top"/>
+                     <img src='images/vex.png' alt="Project2" class="card-img-top"/>
                      <div className='card-body'>
                         <h5 className='card-title'>React Portfolio</h5>
                         <p className='card-text'>

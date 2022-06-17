@@ -5,6 +5,12 @@ header-container{
     color: purple;
 }
 
+.icon-header{
+    display: flex !important;
+    height: 80px;
+}
+
+
 
 .header-parent{
   display: flex;
