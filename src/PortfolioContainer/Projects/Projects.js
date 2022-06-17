@@ -47,7 +47,6 @@ export default function Projects(props) {
                         <p className='card-text'>
                           Frameworks: .NET, AZURE, RAZORPAGES, MSSQL
                         </p>
-                  
                         <div className=" d-flex flex-row justify-content-center">
                          <div className='inner-button'>
                         <a href="https://veeggan2022.azurewebsites.net/Customer/Home">
@@ -61,6 +60,35 @@ export default function Projects(props) {
                      </div>
                      </div>
                     </div>
+
+                     
+                  <div className='col-12 col-md-6 col-lg-4'>
+                  <div className='card'>
+                     <img src='images/ve.png' alt="Project2" class="card-img-top"/>
+                     <div className='card-body'>
+                        <h5 className='card-title'>React Portfolio</h5>
+                        <p className='card-text'>
+                          Frameworks: React, TailWind Css, Html
+                        </p>
+                        <div className=" d-flex flex-row justify-content-center">
+                         <div className='inner-button'>
+                        <a href="https://obiportfolio.netlify.app/">
+                        <button className="btn highlighted-btn">Go to Webpage  <i class="fa fa-globe"></i></button>
+                        </a>
+                        <a href="https://github.com/uzoziealpha/tailwindcssportfolio">
+                            <button className="btn highlighted-btn">Go to GitHub  <i class="fa fa-github"></i></button>
+                        </a>
+                        </div>
+                       </div> 
+                     </div>
+                     </div>
+                    </div>
+
+
+
+
+
+
 
                     <div className='col-12 col-md-6 col-lg-4'>
                     <div className='card'>
